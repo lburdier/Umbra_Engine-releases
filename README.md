@@ -1,4 +1,4 @@
-# Umbra Engine — téléchargements
+# Umbra Engine - téléchargements
 
 Moteur et éditeur de jeux d'horreur rétro, pour Windows (Direct3D 11).
 
