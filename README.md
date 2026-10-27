@@ -1,6 +1,6 @@
 **English** · [Français](README.fr.md)
 
-# Umbra Engine — downloads
+# Umbra Engine: downloads
 
 A retro horror game engine and editor for Windows (Direct3D 11).
 
