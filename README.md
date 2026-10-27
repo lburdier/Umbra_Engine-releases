@@ -1,10 +1,10 @@
 **English** · [Français](README.fr.md)
 
-# Umbra Engine: downloads
+# Umbra Editor: downloads
 
 A retro horror game engine and editor for Windows (Direct3D 11).
 
-This repository only contains the **published releases** of Umbra Engine.
+This repository only contains the **published releases** of Umbra Editor.
 
 ## Install
 
@@ -43,4 +43,4 @@ Get-FileHash UmbraEngine-1.0.0-win64.zip -Algorithm SHA256
 
 ---
 
-Umbra Engine is proprietary software; its source code is not public.
+Umbra Editor is proprietary software; its source code is not public.

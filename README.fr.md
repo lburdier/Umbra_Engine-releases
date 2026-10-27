@@ -1,10 +1,10 @@
 [English](README.md) · **Français**
 
-# Umbra Engine - téléchargements
+# Umbra Editor - téléchargements
 
 Moteur et éditeur de jeux d'horreur rétro, pour Windows (Direct3D 11).
 
-Ce dépôt ne contient que les **versions publiées** d'Umbra Engine.
+Ce dépôt ne contient que les **versions publiées** d'Umbra Editor.
 
 ## Installer
 
@@ -45,4 +45,4 @@ Get-FileHash UmbraEngine-1.0.0-win64.zip -Algorithm SHA256
 
 ---
 
-Umbra Engine est un logiciel propriétaire ; le code source n'est pas public.
+Umbra Editor est un logiciel propriétaire ; le code source n'est pas public.
