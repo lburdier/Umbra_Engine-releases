@@ -1,41 +1,41 @@
-# Umbra Engine - téléchargements
+**English** · [Français](README.fr.md)
 
-Moteur et éditeur de jeux d'horreur rétro, pour Windows (Direct3D 11).
+# Umbra Engine — downloads
 
-Ce dépôt ne contient que les **versions publiées** d'Umbra Engine.
+A retro horror game engine and editor for Windows (Direct3D 11).
 
-## Installer
+This repository only contains the **published releases** of Umbra Engine.
 
-1. Ouvre la [dernière release](../../releases/latest).
-2. Télécharge **`UmbraEngine-Setup.exe`** et lance-le.
-3. C'est tout : l'installeur télécharge la dernière version, vérifie son
-   empreinte SHA-256 et l'installe dans ton profil
-   (`%LOCALAPPDATA%\Programs\Umbra Engine`), sans droits d'administrateur.
+## Install
 
-L'installeur n'est pas signé : Windows SmartScreen peut afficher
-« Windows a protégé votre ordinateur ». Clique sur **Informations
-complémentaires**, puis **Exécuter quand même**.
+1. Open the [latest release](../../releases/latest).
+2. Download **`UmbraEngine-Setup.exe`** and run it.
+3. That's it: the installer downloads the latest version, checks its
+   SHA-256 hash and installs it in your user profile
+   (`%LOCALAPPDATA%\Programs\Umbra Engine`), without admin rights.
 
-### Sans installeur
+The installer is not signed: Windows SmartScreen may show
+"Windows protected your PC". Click **More info**, then **Run anyway**.
 
-Télécharge `UmbraEngine-<version>-win64.zip`, extrais-le où tu veux et lance
-`umbra_editor.exe`. Le dossier se met à jour de la même façon.
+### Without the installer
 
-## Mises à jour
+Download `UmbraEngine-<version>-win64.zip`, extract it anywhere and run
+`umbra_editor.exe`. The folder updates itself the same way.
 
-L'éditeur vérifie au lancement s'il existe une version plus récente. Elle
-s'annonce par une notification ; un clic la télécharge, et elle s'installe au
-redémarrage. Ton contenu (`content/`) n'est jamais remplacé.
+## Updates
 
-## Désinstaller
+On launch, the editor checks whether a newer version exists. It shows up
+as a notification; one click downloads it, and it is installed on the next
+restart. Your content (`content/`) is never overwritten.
 
-Paramètres Windows > Applications > Applications installées > Umbra Engine >
-Désinstaller. Ton contenu et tes réglages restent sur le disque, sauf si tu
-coches la case pour tout supprimer.
+## Uninstall
 
-## Vérifier un téléchargement
+Windows Settings > Apps > Installed apps > Umbra Engine > Uninstall.
+Your content and settings stay on disk, unless you tick the box to delete everything.
 
-Chaque paquet a son fichier `.sha256` :
+## Verify a download
+
+Each package comes with a `.sha256` file:
 
 ```powershell
 Get-FileHash UmbraEngine-1.0.0-win64.zip -Algorithm SHA256
@@ -43,4 +43,4 @@ Get-FileHash UmbraEngine-1.0.0-win64.zip -Algorithm SHA256
 
 ---
 
-Umbra Engine est un logiciel propriétaire ; le code source n'est pas public.
+Umbra Engine is proprietary software; its source code is not public.
